@@ -1,0 +1,37 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "/home/lichijun/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=/home/lichijun/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+    "--compile-commands-dir=/home/lichijun/Mirco-Ros-Car_VM/2.Source code and firmware-20250913T172850Z-1-001/2.Source code and firmware/Samples/microros_samples/imu_publisher/build"
+  ],
+  "idf.port": "/dev/ttyUSB0",
+  "files.associations": {
+    "gpio.h": "c",
+    "esp_timer.h": "c",
+    "esp_system.h": "c",
+    "executor.h": "c",
+    "error_handling.h": "c",
+    "int32.h": "c",
+    "my_custom_message.h": "c",
+    "my_custom_compose_message.h": "c",
+    "my_custom_compose_message__functions.h": "c",
+    "my_custom_compose_message__struct.h": "c",
+    "atomic.h": "c",
+    "rcl.h": "c",
+    "uros_network_interfaces.h": "c",
+    "freertos.h": "c",
+    "esp_log.h": "c",
+    "string_utilities.h": "c",
+    "my_custom_message__functions.h": "c",
+    "my_custom_message__struct.h": "c",
+    "stdio.h": "c"
+  },
+  "idf.flashType": "UART"
+}
